@@ -1,0 +1,6 @@
+{
+  "name": "Sheetal Patel Portfolio",
+  "description": "An ultra-modern personal portfolio website for Sheetal Patel, featuring a cinematic luxury dark-mode visual interface, interactive 3D particle backgrounds, micro-interactions, responsive design, custom cursor, and deep tech portfolio pieces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
