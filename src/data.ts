@@ -62,34 +62,34 @@ export const projectsData: Project[] = [
 
 export const skillsData: Skill[] = [
   // Frontend
-  { name: "React.js", level: 85, category: "Frontend", iconName: "⚛️" },
-  { name: "HTML5", level: 92, category: "Frontend", iconName: "🌐" },
-  { name: "CSS3", level: 88, category: "Frontend", iconName: "🎨" },
-  { name: "JavaScript", level: 85, category: "Frontend", iconName: "JS" },
-  { name: "TypeScript", level: 75, category: "Frontend", iconName: "TS" },
-  { name: "Tailwind CSS", level: 88, category: "Frontend", iconName: "💨" },
+  { name: "React.js",     level: 82, category: "Frontend",    iconName: "react" },
+  { name: "HTML5",        level: 90, category: "Frontend",    iconName: "html5" },
+  { name: "CSS3",         level: 87, category: "Frontend",    iconName: "css3" },
+  { name: "JavaScript",   level: 83, category: "Frontend",    iconName: "javascript" },
+  { name: "TypeScript",   level: 72, category: "Frontend",    iconName: "typescript" },
+  { name: "Tailwind CSS", level: 85, category: "Frontend",    iconName: "tailwind" },
   // Backend
-  { name: "Node.js", level: 78, category: "Backend", iconName: "🟢" },
-  { name: "Express.js", level: 76, category: "Backend", iconName: "⚡" },
-  { name: "PHP", level: 70, category: "Backend", iconName: "🐘" },
-  { name: "Java", level: 80, category: "Backend", iconName: "☕" },
+  { name: "Node.js",      level: 75, category: "Backend",     iconName: "nodejs" },
+  { name: "Express.js",   level: 73, category: "Backend",     iconName: "express" },
+  { name: "PHP",          level: 65, category: "Backend",     iconName: "php" },
+  { name: "Java",         level: 78, category: "Backend",     iconName: "java" },
   // Programming
-  { name: "Python", level: 90, category: "Programming", iconName: "🐍" },
-  { name: "C", level: 82, category: "Programming", iconName: "©️" },
-  { name: "C++", level: 80, category: "Programming", iconName: "⊕" },
-  { name: "DSA", level: 78, category: "Programming", iconName: "🧮" },
+  { name: "Python",       level: 88, category: "Programming", iconName: "python" },
+  { name: "C",            level: 80, category: "Programming", iconName: "c" },
+  { name: "C++",          level: 78, category: "Programming", iconName: "cpp" },
+  { name: "DSA",          level: 74, category: "Programming", iconName: "dsa" },
   // Database
-  { name: "SQL", level: 85, category: "Database", iconName: "🗄️" },
-  { name: "MongoDB", level: 75, category: "Database", iconName: "🍃" },
+  { name: "SQL",          level: 83, category: "Database",    iconName: "sql" },
+  { name: "MongoDB",      level: 72, category: "Database",    iconName: "mongodb" },
   // AI & Data
-  { name: "Machine Learning", level: 72, category: "AI & Data", iconName: "🤖" },
-  { name: "Data Analysis", level: 80, category: "AI & Data", iconName: "📊" },
-  { name: "Pandas", level: 85, category: "AI & Data", iconName: "🐼" },
-  { name: "NumPy", level: 82, category: "AI & Data", iconName: "🔢" },
+  { name: "Machine Learning", level: 67, category: "AI & Data", iconName: "ml" },
+  { name: "Data Analysis",    level: 78, category: "AI & Data", iconName: "data" },
+  { name: "Pandas",           level: 82, category: "AI & Data", iconName: "pandas" },
+  { name: "NumPy",            level: 79, category: "AI & Data", iconName: "numpy" },
   // Tools
-  { name: "Git", level: 88, category: "Tools", iconName: "🌿" },
-  { name: "GitHub", level: 87, category: "Tools", iconName: "🐙" },
-  { name: "VS Code", level: 95, category: "Tools", iconName: "💻" },
+  { name: "Git",       level: 85, category: "Tools", iconName: "git" },
+  { name: "GitHub",    level: 84, category: "Tools", iconName: "github" },
+  { name: "VS Code",   level: 90, category: "Tools", iconName: "vscode" },
 ];
 
 export const experienceData: Experience[] = [
@@ -100,7 +100,7 @@ export const experienceData: Experience[] = [
     period: "2023 – 2027",
     type: "education",
     description: [
-      "Currently in 7th Semester with a strong foundation in programming, data structures, and software engineering.",
+      "Pursuing B.Tech with a strong foundation in programming, data structures, and software engineering.",
       "Studying core IT subjects including DBMS, OS, Computer Networks, and Web Technologies.",
       "Active member of the university's coding and innovation clubs.",
     ],
@@ -108,16 +108,16 @@ export const experienceData: Experience[] = [
   },
   {
     id: "proj-1",
-    title: "Full-Stack Project Development",
+    title: "Personal Web Development Projects",
     organization: "Self-Initiated",
     period: "2024 – Present",
     type: "project",
     description: [
-      "Built multiple real-world projects including a fashion-tech platform (RS Curve Atelier) using React.js, Node.js, and MongoDB.",
-      "Designed and deployed data analytics systems for customer behavior and road accident prediction.",
-      "Focused on clean architecture, responsive design, and user-centric experiences.",
+      "Built this personal portfolio website using React.js, TypeScript, and Tailwind CSS to showcase skills and projects.",
+      "Created simple, clean websites for practice — including landing pages, product showcase pages, and form-based contact sites.",
+      "Focused on responsive layouts, good design, and writing readable, well-structured code.",
     ],
-    tags: ["React", "Node.js", "Python", "MongoDB"],
+    tags: ["React", "HTML/CSS", "JavaScript", "Tailwind CSS"],
   },
   {
     id: "learn-1",
